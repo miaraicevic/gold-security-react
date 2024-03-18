@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.lista li::marker {
+  margin: 10px;
+  content: "■";
+  color: rgb(237, 196, 94);
+  font-size: 13px;
+}
